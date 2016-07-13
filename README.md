@@ -1,4 +1,4 @@
-## Deventureland.com
+## Dealertec
 
 ### Cosmetic automotive repair in the Chicagoland area
 
