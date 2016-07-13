@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document for Facebook sidebar */
+
+#facebook_wrap {
+	position:fixed;
+	left:-292px;
+	z-index:15000;
+	height:640px;
+}
+
+#facebook {
+	position:relative;
+}
+
+#fb_sideicon {
+	border-radius:0 2px 2px 0;
+	cursor:pointer;
+	position:absolute;
+	right:-39px;
+	top:38%;
+	width:40px;
+	height:160px;
+	background-image:url(../images/icons/icon_sheet.png);
+	background-position:-136px -64px;
+}
+
+#facebook iframe {
+	border-radius:2px;	
+	background: #161616; /* Old browsers */
+	background: -moz-linear-gradient(top,  #161616 0%, #000000 53%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#161616), color-stop(53%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #161616 0%,#000000 53%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #161616 0%,#000000 53%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #161616 0%,#000000 53%); /* IE10+ */
+	background: linear-gradient(top,  #161616 0%,#000000 53%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#000000',GradientType=0 ); /* IE6-9 */	
+}
+
+.fbConnectWidgetTopmost {
+	border:none !important;	
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#about {
+	margin:32px auto;
+	background-color:#1F1F1F;
+	padding:8px 8px;
+}
+
+#about h1 {
+	margin:24px 0;
+	font:italic bold 32px/36px Frutiger95;
+	padding:8px;
+}
+
+#about h2 {
+	font:italic bold 22px/28px Frutiger95;
+	padding:8px;
+	margin:24px 0;
+}
+
+#about h2 strong {
+	color:#FFC880;
+}
+
+#about p {
+	background-color:#191919;
+	font:normal 16px/22px Arial, Helvetica, sans-serif;
+	padding:8px;	
+}
+
+#about p b {
+	color:#FFC880;
+	font:italic bold 18px Arial, Helvetica, sans-serif;
+}
+

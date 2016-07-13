@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#congrats {
+	
+}
+
+#congrats p {
+	padding:8px;	
+}
+
+#quote_wrap {
+	width:960px;
+	margin:0 auto;	
+}
+
+#created {
+	padding-bottom:16px;	
+}
+
+.qte_info {
+	list-style-type:none;
+	padding-bottom:16px;	
+}
+
+.qte_info_li {
+	line-height:22px;
+}
+
+#quote h1 {
+	padding-top:8px;	
+}
+
+#services_wrap {
+	
+}
+
+#services_wrap h1 {
+	padding-bottom:8px;	
+}
+
+#services_tbl {
+	width:960px;
+}
+
+#description {
+	width:580px;
+}	
+
+#services_tbl tr {
+	background-color:#555;
+	height:32px;
+}
+
+#services_tbl td {
+	padding:0 8px;
+	text-align:center;	
+}
+
+.tbl_head {
+	background-color: #1F1F1F !important;
+}

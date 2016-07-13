@@ -1,0 +1,99 @@
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: flexible
+Description: The default skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+*/
+
+.theme-deleartec .nivoSlider {
+	position:relative;
+	background:#000 url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:50px;
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    3px 3px 3px rgba(0, 0, 0, 0.35);
+	box-shadow:         3px 3px 3px rgba(0, 0, 0, 0.35);
+	border-left:solid 1px #777;
+	border-top:solid 1px #777;
+	border-right:solid 1px #333;
+	border-bottom:solid 1px #333;
+	border-radius:2px;
+}
+.theme-deleartec .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-deleartec .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-deleartec .nivo-controlNav {
+	position:absolute;
+	left:50%;
+	bottom:-42px;
+    margin-left:-40px; /* Tweak this to center bullets */
+}
+.theme-deleartec .nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.theme-deleartec .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-deleartec .nivo-directionNav a {
+	display:block;
+	width:48px;
+	height:24px;
+	padding:16px 6px;
+	background:url(arrows.png) no-repeat #1f1f1f;
+	text-indent:-9999px;
+	border:1px solid;
+}
+
+.theme-deleartec .nivo-directionNav a:hover {
+	background-color:#333;
+}
+
+.theme-deleartec a.nivo-nextNav {
+	background-position:-65px;
+	right:-62px;
+	border-color:#333 #333 #333 transparent;
+	border-radius:0 2px 2px 0;
+}
+.theme-deleartec a.nivo-prevNav {
+	left:-62px;
+	background-position:0px;
+	border-color:#777 transparent #333 #777;
+	border-radius:2px 0 0 2px;
+}
+
+.theme-deleartec .nivo-caption {
+	background-image:url(caption_bg.png);
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-deleartec .nivo-caption p {
+	padding:12px;
+}
+.theme-deleartec .nivo-caption h1 {
+	font:bold 28px/28px 'Frutiger95';
+	padding-bottom:6px;	
+}
+.theme-deleartec .nivo-caption a {
+    color:#fff;
+	font-weight:bold;
+}
+.theme-deleartec .nivo-caption a:hover {
+    color:#ffc06e;
+}

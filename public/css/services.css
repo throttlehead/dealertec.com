@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* <-- Services Section --> */
+
+.serv_title {
+	margin-top:32px;
+	text-align:center;
+	font:bold 20px/32px Arial, Helvetica, sans-serif;
+	background-image:url(../images/backgrounds/services_title_bg.png);
+	background-position:0 0px;
+	position:relative;
+	left:8px;	
+}
+
+.serv_title em {
+	font-size:48px;
+	font:bold italic 48px/56px Frutiger95;
+	color:#ff9a2a;
+	text-shadow: 2px 2px 3px #000;
+}
+
+.serv_title small {
+	line-height:42px;
+	font-weight:normal;
+	font-style:italic;
+}
+
+#services_list {
+	list-style:none;
+	width:992px;
+	margin:0 auto;
+	border-bottom:1px solid #101010;
+}
+
+#services_row_a {
+	display:block;
+	height:80px;
+	width:920px;
+	margin:0 auto;
+	padding-top:32px;
+}
+
+#services_row_b {
+	display:block;
+	height:80px;
+	width:610px;
+	margin:0 auto;
+	padding-bottom:18px;
+}
+
+.services_li {
+	float:left;
+	position:relative;
+	font:italic bold 16px/64px Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	height:80px;
+	width:304px;
+	text-indent:120px;
+	color:#3e3e3e;
+}
+
+.services_li span {
+	width:inherit;	
+}
+
+.services_li:hover {
+	background:transparent url(../images/backgrounds/serv_btn_bg.png);
+}
+
+.serv_icon {
+	position:absolute;
+	left:14px;
+	display:block;
+	background-image:url(../images/icons/services_icons.png);	
+	background-repeat:no-repeat;
+	width:96px;
+	height:64px;
+}
+
+#detail_icon {
+	background-position:-96px 0px;
+}
+
+#wind_icon {
+	background-position:-96px -64px;
+}
+
+#plastic_icon {
+	background-position:-96px -128px;
+}
+
+#headlight_icon {
+	background-position:-96px -196px;
+}
+
+#paint_icon {
+	background-position:-96px -256px;
+}
+
+#service_box {
+	position:relative;
+	width:960px;
+	height:0px;
+	margin:0px auto;
+    -webkit-border-radius:0px 0px 4px 4px;
+    -moz-border-radius:0px 0px 4px 4px;
+	-webkit-box-shadow: 0px 3px 4px 0px #000;
+	box-shadow: 0px 3px 4px 0px #000;
+    border-radius:0px 0px 4px 4px;
+	border-top:1px solid #545454;
+}
+
+services_desc {
+	
+}
+
+#desc_btn_wrap {
+	width:992px;
+	height:40px;
+	margin:0px auto;
+	padding-bottom:64px;
+}
+
+#desc_btn {
+	cursor:pointer;
+	width:64px;
+	height:40px;
+	margin:0px auto;
+	background:#292929;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(#444,0),color-stop(#111,1));
+    background:-webkit-linear-gradient(top, #444 0%, #111 100%);
+    background:-moz-linear-gradient(top, #444 0%, #111 100%);
+    background:-o-linear-gradient(top, #444 0%, #111 100%);
+    background:linear-gradient(top, #444 0%, #111 100%);
+    border:1px solid #111;
+    -webkit-box-shadow:0px -1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow:0px -1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow:0px -1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -webkit-border-radius:0px 0px 4px 4px;
+    -moz-border-radius:0px 0px 4px 4px;
+    border-radius:0px 0px 4px 4px;
+}
+
+
+#service_desc {
+}
+
+#service_desc h1 {
+	margin:8px 0px;
+	background-color:#fbb958;
+	text-align:center;
+	font: bold italic 36px/56px Frutiger95;
+	text-shadow: 1px 1px 0px #1c1c1c;
+}
+
+.desc_p_1{
+	padding:8px 16px 16px 16px;
+	font: normal 16px Arial, Helvetica, sans-serif;
+	color:#000;
+	
+}
+
+.desc_p_1 em {
+	font: bold italic 16px Arial, Helvetica, sans-serif;
+}
+
+.desc_p_2 {
+	padding:8px 16px 8px 16px;
+	background-color:#795b39;
+	border-bottom:none !important;
+}
+
+.desc_p_3 {
+	text-align:center;
+	font-style:italic;
+	padding:16px 16px 8px 16px;
+	
+}
+
+#service_desc ul {
+	padding:16px 16px 16px 48px;
+	background-color:#fbb958;
+	list-style:none;
+}
+
+#service_desc ul em, .desc_p_2 {
+	font: bold 18px/18px Arial, Helvetica, sans-serif;
+}
+
+#service_desc li{
+	position:relative;
+	padding:4px 8px;
+}
+
+.desc_li:before {
+	position:absolute;
+	left:-22px;
+	top:11px;
+	content:'';
+	background-image:url(../images/icons/icon_sheet.png);
+	background-position:-48px -160px;
+	display:block;
+	width:16px;
+	height:8px;	
+}
+
+.desc_list_title {
+	display:block;
+	position:relative;
+	left:-24px;	
+	font: bold 18px/32px Arial, Helvetica, sans-serif;
+}
